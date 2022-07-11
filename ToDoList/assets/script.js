@@ -4,6 +4,8 @@ var parent = document.querySelector("table");
 button.onclick = () => {
   var task = document.querySelector("#task");
   var deadline = document.querySelector("#Deadline");
+  task.value = "";
+  deadline = "";
   var errorClass = document.querySelector(".error");
   if (document.contains(errorClass)) {
     errorClass.remove();

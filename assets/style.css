@@ -1,0 +1,18 @@
+#body{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+}
+
+#opt1,#opt2{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}

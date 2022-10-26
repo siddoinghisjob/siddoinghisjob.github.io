@@ -49,7 +49,7 @@ function typingEffect() {
 			document.querySelector('.buffer').innerHTML += word.shift();
 		} else {
 			deletingEffect();
-			return false;
+			return;
 		};
 		timer = setTimeout(loopTyping, 500);
 	};
@@ -69,7 +69,7 @@ function deletingEffect() {
 				i = 0;
 			};
 			typingEffect();
-			return false;
+			return;
 		};
 		timer = setTimeout(loopDeleting, 200);
 	};
@@ -103,3 +103,14 @@ document.querySelector(".skills").addEventListener('click',(event)=>{
 document.querySelector(".projects").addEventListener('click',(event)=>{
   document.querySelector("#Projects").scrollIntoView({behavior:'smooth'});
 });
+
+window.addEventListener('scroll',smoothEntry);
+
+function smoothEntry(){
+  const divs = document.querySelectorAll(".Downdata");
+  divs.forEach((key)=>{
+    let heightOfWindow = window.innerHeight;
+    let distanceFromTop = key.getBoundingClientRect().top;
+    if(distanceFromTop <heightOfWindow - 100) console.log("second");
+  })
+}

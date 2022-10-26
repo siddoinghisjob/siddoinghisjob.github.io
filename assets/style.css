@@ -97,6 +97,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 
 .slider {
@@ -305,6 +306,29 @@ svg {
     width:95%;
 }
 
+.socialLinks svg{
+    color:var(--text-color);
+}
+
+.socialLinks ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.effect{
+    position: relative;
+    transform: translateX(100px);
+    transition: 1s all ease-in;
+    opacity: 0;
+}
+
+.effect.act{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 .Downdata h1{
     display: flex;
     justify-content: center;
@@ -350,11 +374,15 @@ svg {
 }
 
 .footer{
+    display: flex;
+    flex-direction: column;
     box-shadow: 0px 0px 10px 7px rgb(0,0,0,0.2);
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.3rem;
     background-color: var(--primary-color);
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 0.3rem;
     padding-left: 0;
     padding-right: 0;
@@ -381,5 +409,9 @@ svg {
     }
     #Projects img{
         height: 4.5rem;
+    }
+    .imagesSkills{
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr;
     }
 }

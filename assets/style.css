@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 :root {
     --primary-color: #ffffff;
     --secondary-color: rgb(233, 199, 199);
     --text-color: black;
     ---dropdown-color:rgb(245, 188, 188);
     ---slider-bg: rgb(176, 122, 122);
+    ---image-bg:rgb(251, 202, 202);
 }
 
 [data-theme="dark"] {
@@ -14,6 +14,7 @@
     --text-color: #e1e1ff;
     ---dropdown-color:#414345;
     ---slider-bg: black;
+    ---image-bg:rgb(252, 241, 241);
 }
 
 @keyframes invis {
@@ -59,6 +60,11 @@
 
 .moon-svg{
     display: none;
+    color:white;
+}
+
+.sun-svg{
+    color: yellow;
 }
 
 .links{
@@ -78,13 +84,19 @@ html, body{
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Asap", sans-serif;
     transition: background-color 1s, color .5s;
     margin: 0px;
     background: var(--primary-color);
     background: -webkit-linear-gradient(to right, var(--secondary-color), var(--primary-color));
     background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
     color: var(--text-color)
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .slider {
@@ -274,11 +286,12 @@ svg {
 .down-window{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    margin:auto;
     justify-content: center;
     text-align: center;
     padding:2rem;
     gap: 3rem;
+    background-color: var(---slider-bg);
 }
 
 .Downdata{
@@ -286,9 +299,10 @@ svg {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(---slider-bg);
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
+    margin: auto;
+    width:95%;
 }
 
 .Downdata h1{
@@ -306,27 +320,66 @@ svg {
     flex-direction: column;
     justify-content:flex-start;
     text-align: left;
+    width:80%;
+}
+.imgContainer{
+    border:2px solid; margin:1rem ; padding-left: 10px; padding-right: 10px; border-radius: 20px;
 }
 
-#Projects img{
-    height: 7rem; 
-    border:1px solid;
+.imgContainer img{
+    height: 15rem;
 }
 
-.Downdata img{
-    height: 5rem;
+.imgPort{
+    height: 100%; 
+    border:0px solid;
+}
+
+#Skills{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#Skills img, #About img{
+    height: 4rem;
     margin: 0.3rem;
-    background-color: var(--text-color);
+    background-color: var(---image-bg);
+    border-radius: 20px;
     padding: 10px;
 }
 
+.footer{
+    box-shadow: 0px 0px 10px 7px rgb(0,0,0,0.2);
+    width: 100%;
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.3rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.heart{
+    color: red;
+}
+
 @media screen and (max-width : 480px) {
-    .Downdata{
+    .down-window{
+        background-color: transparent;
+    }
+    .Downdata,#Skills{
+        background-color: var(---slider-bg);
         display: flex;
         flex-direction: column;
+        width: 80%;
+        margin: auto;
     }
-    .Downdata img{
-        height: 3rem;
-        max-width: 20rem;
+    #Skills img, #About img{
+        height: 2rem;
+        max-width: 10rem;
+    }
+    #Projects img{
+        height: 4.5rem;
     }
 }

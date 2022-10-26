@@ -83,8 +83,8 @@ function rating(){
    method : "GET" 
   })
   .then(res=>res.json())
-  .then(data=>document.querySelector(".codeforcesData").innerHTML='<span>Rank -'+ data.result[0].rank +' </span>'+'<span>Maximum Rank -'+ data.result[0].maxRank +' </span>'
-  +'<span>Rating -'+ data.result[0].rating +' </span>'+'<span>Maximum Rating -'+ data.result[0].rating +' </span>')
+  .then(data=>document.querySelector(".codeforcesData").innerHTML='<ul><li>Rank -'+ data.result[0].rank +' </li>'+'<li>Maximum Rank -'+ data.result[0].maxRank +' </li>'
+  +'<li>Rating -'+ data.result[0].rating +' </li>'+'<li>Maximum Rating -'+ data.result[0].rating +' </li></ul>')
   .catch(err=>document.querySelector(".codeforcesData").innerHTML="Connect to internet")
 }
 
@@ -111,6 +111,10 @@ function smoothEntry(){
   divs.forEach((key)=>{
     let heightOfWindow = window.innerHeight;
     let distanceFromTop = key.getBoundingClientRect().top;
-    if(distanceFromTop <heightOfWindow - 100) console.log("second");
+    if(distanceFromTop < heightOfWindow){
+      key.classList.add("act");
+    }else{
+      key.classList.remove("act");
+    }
   })
 }

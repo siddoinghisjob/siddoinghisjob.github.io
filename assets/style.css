@@ -213,7 +213,7 @@ svg {
     height:100vh;
     flex-direction:column;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .oneLiner{

@@ -80,7 +80,8 @@
 
 html, body{
     height: 100%;
-    width: 100wv;
+    width: 100%;
+    max-width:100%;
 }
 
 body {

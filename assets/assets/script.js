@@ -99,7 +99,7 @@ document.querySelector(".skills").addEventListener('click',(event)=>{
   document.querySelector("#Skills").scrollIntoView({behavior:'smooth'});
 
 })
-
+  // api key = NGk1W2pRs5NHuurRRGxi2YNwzGxFV87bcDjGa9zK
 document.querySelector(".projects").addEventListener('click',(event)=>{
   document.querySelector("#Projects").scrollIntoView({behavior:'smooth'});
 });
@@ -109,7 +109,7 @@ window.addEventListener('scroll',smoothEntry);
 function smoothEntry(){
   const {scrollTop, scrollHeight, clientHeight} = document.documentElement;
   const finalPercentage = Math.round((scrollTop + clientHeight) / scrollHeight * 100);
-  document.querySelector('.progress-bar').style.width=finalPercentage+"%";
+  document.querySelector('.progress-bar').style.width = finalPercentage+"%";
   const divs = document.querySelectorAll(".Downdata");
   divs.forEach((key)=>{
     let heightOfWindow = window.innerHeight;

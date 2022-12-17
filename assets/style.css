@@ -316,7 +316,7 @@ svg {
 }
 
 .header-bar{
-    background-color:rgb(253, 196, 91);
+    background-color:var(---dropdown-color);
     position: fixed;
     height: 0.3rem;
     width: 100%;
@@ -324,7 +324,7 @@ svg {
 }
 
 .progress-bar{
-    background-color: red;
+    background-color: var(---secondary-color);
     position: absolute;
     height: 0.3rem;
     width:10%;

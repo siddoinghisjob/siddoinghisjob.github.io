@@ -1,11 +1,8 @@
 puns();
 
-document.body.addEventListener('load',()=>{
-    let timeRightNow = new Date();
-    timeRightNow = timeRightNow.getHours();
-    if(timeRightNow<=12) document.documentElement.setAttribute("data-theme", "light");
-    else document.documentElement.setAttribute("data-theme", "dark");
-})
+const timeRightNow = new Date().getHours();
+if(parseInt(timeRightNow)<=12) document.documentElement.setAttribute("data-theme", "light");
+else document.documentElement.setAttribute("data-theme", "dark");
 
 const checkbox = document.querySelector('.slider');
 

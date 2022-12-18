@@ -324,7 +324,7 @@ svg {
 }
 
 .progress-bar{
-    background-color: var(---secondary-color);
+    background-color: var(--text-color);
     position: absolute;
     height: 0.3rem;
     width:10%;

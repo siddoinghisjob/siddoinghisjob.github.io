@@ -1,0 +1,35 @@
+name: Push Release Notes to Beamer
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  push-release-notes:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Generate Release Notes
+      id: release-notes
+      uses: JasonEtco/generate-release-notes@v2.3.3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        excludes: '^(test|docs)'
+    - name: Push Release Notes to Beamer
+      uses: curl-actions/request@v2
+      with:
+        url: https://api.getbeamer.com/v0/posts
+        method: POST
+        headers: |
+          {
+            "Content-Type": "application/json",
+            "Beamer-Api-Key": "b_PUZ1AdU5J+6lxe/HIPEPblCIjQ7CKoF8PDJ+wBILNK4="
+          }
+        data: |
+          {
+            "title": [ "New Release: ${{ github.event.release.tag_name }}" ],
+            "content": [ "${{ steps.release-notes.outputs.notes }}" ],
+            "category": "new",
+            "publish": true
+          }

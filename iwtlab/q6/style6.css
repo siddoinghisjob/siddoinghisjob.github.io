@@ -1,0 +1,142 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #ede7f6;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.question {
+  background-color: #191d88;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+header {
+  font-size: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding-top: 1rem;
+  font-weight: 700;
+  text-decoration-style: underline wavy;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 6rem;
+  font-size: larger;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+button {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  height: 3rem;
+  width: 7rem;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: #f082ac;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.grid {
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.box {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.left {
+  display: flex;
+  letter-spacing: 0.06rem;
+  text-align: justify;
+  line-height: 1.1;
+}
+
+.right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.right div{
+    padding: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    font-size: larger;
+}
+
+.right ul{
+    list-style: none;
+    letter-spacing: 1.05;
+    line-height: 1.7rem;
+}

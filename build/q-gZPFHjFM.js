@@ -1,0 +1,1 @@
+import{b as l,k as s,S as e}from"./q-BN4e9X1X.js";const o=()=>l("div",null,{class:"flex flex-1 flex-col justify-between p-4"},l("div",null,{class:"bg-card rounded"},s(e,null,3,"bx_0"),1,null),1,"bx_1");export{o as s_Mow00heaLLc};

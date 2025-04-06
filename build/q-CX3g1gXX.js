@@ -1,1 +1,0 @@
-import{_ as o}from"./q-BHJGbVef.js";import{c as a,q as t}from"./q-BN4e9X1X.js";const s=a(t(()=>o(()=>import("./q-BOB49L4Y.js").then(e=>e.i),[]),"s_Ue7coCwZQpc")),m={title:"Blog | Soumya Deep Sarkar",meta:[{name:"description",content:"Read Soumya Deep Sarkar's blog posts about software development, programming languages, and web technologies."}]};export{s as default,m as head};

@@ -1,1 +1,0 @@
-import{_ as o}from"./q-vYVbgLZq.js";import{c as e,q as t}from"./q-BN4e9X1X.js";const i=e(t(()=>o(()=>import("./q-Cm7_J3go.js"),[]),"s_mz2FTw8I8T0")),s={title:"Projects | Soumya Deep Sarkar",meta:[{name:"description",content:"Explore Soumya Deep Sarkar's projects including web applications, tools, and more built with various technologies."}]};export{i as default,s as head};

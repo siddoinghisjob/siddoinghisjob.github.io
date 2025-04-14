@@ -1,5 +1,5 @@
 {
-  "manifestHash": "r5bvs7",
+  "manifestHash": "ej2bon",
   "symbols": {
     "s_Ysfvd0zsHZc": {
       "origin": "../node_modules/@builder.io/qwik-city/lib/index.qwik.mjs",
@@ -1132,7 +1132,106 @@
       "location": "head",
       "attributes": {
         "rel": "preload",
+        "href": "/assets/C2S99t-D-inter-latin-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
         "href": "/assets/CFHvXkgd-inter-latin-ext-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/CBcvBZtf-inter-vietnamese-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/CaVNZxsx-inter-greek-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/CGAr0uHJ-inter-greek-ext-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/CMZtQduZ-inter-cyrillic-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/BthBl_aR-kalam-latin-400-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/B2xhLi22-inter-cyrillic-ext-wght-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/DtcdGa4L-kalam-latin-ext-400-normal.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "location": "head",
+      "attributes": {
+        "rel": "preload",
+        "href": "/assets/Dy6c0U2e-kalam-devanagari-400-normal.woff2",
         "as": "font",
         "type": "font/woff2",
         "crossorigin": ""
@@ -1199,105 +1298,6 @@
       "attributes": {
         "rel": "preload",
         "href": "/assets/CN0639WT-fira-code-cyrillic-ext-wght-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/BthBl_aR-kalam-latin-400-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/DtcdGa4L-kalam-latin-ext-400-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/Dy6c0U2e-kalam-devanagari-400-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/C2S99t-D-inter-latin-wght-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/CBcvBZtf-inter-vietnamese-wght-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/CaVNZxsx-inter-greek-wght-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/CGAr0uHJ-inter-greek-ext-wght-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/CMZtQduZ-inter-cyrillic-wght-normal.woff2",
-        "as": "font",
-        "type": "font/woff2",
-        "crossorigin": ""
-      }
-    },
-    {
-      "tag": "link",
-      "location": "head",
-      "attributes": {
-        "rel": "preload",
-        "href": "/assets/B2xhLi22-inter-cyrillic-ext-wght-normal.woff2",
         "as": "font",
         "type": "font/woff2",
         "crossorigin": ""

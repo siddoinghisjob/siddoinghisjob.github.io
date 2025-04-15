@@ -1,1 +1,0 @@
-import{_ as e}from"./q-BaPyEwrR.js";import{c as o,q as t}from"./q-BN4e9X1X.js";const m=o(t(()=>e(()=>import("./q-J5b_0NXW.js"),[]),"s_CwYVeytDDgA")),n={title:"Soumya Testing | Soumya Deep Sarkar",meta:[{name:"description",content:"Soumya Testing - Blog post by Soumya Deep Sarkar"},{name:"author",content:"Soumya Deep Sarkar"}]};export{m as default,n as head};

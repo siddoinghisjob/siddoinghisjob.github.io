@@ -1,1 +1,0 @@
-import{_ as e}from"./q-CqcPwH39.js";import{c as o,q as a}from"./q-BN4e9X1X.js";const n=o(a(()=>e(()=>import("./q-DXRSRE0Q.js"),[]),"s_NQsIKdiOATI")),i={title:"Why do we need Qwik JS? | Soumya Deep Sarkar",meta:[{name:"description",content:"Why do we need Qwik JS? - Blog post by Soumya Deep Sarkar"},{name:"author",content:"Soumya Deep Sarkar"}]};export{n as default,i as head};

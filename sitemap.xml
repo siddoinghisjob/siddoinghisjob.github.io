@@ -2,6 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>http://localhost:3000/</loc></url>
 <url><loc>http://localhost:3000/project/</loc></url>
-<url><loc>http://localhost:3000/blogs/1/</loc></url>
 <url><loc>http://localhost:3000/blogs/content/why-do-we-need-qwik-js/</loc></url>
+<url><loc>http://localhost:3000/blogs/1/</loc></url>
 </urlset>
